@@ -1,0 +1,10 @@
+cn\lngex\basic\BuyResult.class
+cn\lngex\BuyApp.class
+cn\lngex\basic\Parameter.class
+cn\lngex\controller\BuyController.class
+cn\lngex\feign\FallbackFactorys$1.class
+cn\lngex\feign\FallbackFactorys.class
+cn\lngex\mapper\BuyMapper.class
+cn\lngex\feign\IFeign.class
+cn\lngex\service\IBuyService.class
+cn\lngex\service\impl\BuyServiceImpl.class

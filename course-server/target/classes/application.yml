@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: course-server
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///itsource-course?useSSL=true
+    username: root
+    password: 123456
+
+#mybatis
+mybatis:
+  type-aliases-package: cn.lngex
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2020/eureka #告诉服务提供者要把服务注册到哪儿
+  instance:
+    prefer-ip-address: true # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
+    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
